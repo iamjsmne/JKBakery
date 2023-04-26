@@ -2,39 +2,62 @@
 <html lang="en">
     <head>
         <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>JK BAKERY</title>
         <link rel="stylesheet" href="stylesheet.css"></link>
     </head>
 
     <body>
-        <header>
+        <section class="header">
             <nav>
-                <div class = "header-logo">JK Bakery</div>
-                <div class = "navigation">
-                    <a href="">HOME</a>
-                    <a href="">ABOUT US</a>
-                    <a href="">MENU</a> <!-- Change to Shop -->
+                <div class = "header-logo">JK Bakery</div> <!--ADD LOGO IMAGE-->
+                <div class = "nav-links">
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">SHOP</a></li>
+                        <li><a href="">ABOUT US</a></li>
+                        <li><a href="">CONTACT US</a></li>
+                    </ul>
                 </div>
             </nav>
-        </header>
-
-       <section class = "introduction">
-            <img src="images/mae-mu-8GzmzEyLNyc-unsplash.jpg" alt="JK Bakery Banner">
-            <div class="intro-description">
-                <p>Serving our neighborhood for over 30 years</p>
-                <p>Crispy on the outside, soft on the inside</p>
+            <div class="text-box">
+                <h1>JK Bakery</h1>
+                    <div class="short-intro">
+                        <p>Serving our neighborhood for over 30 years</p>
+                        <p>Crispy on the outside, soft on the inside</p>
             </div>
-       </section>
-       <section class = "list-of-goods">
-            <img src="">
-            <img src="">
-            <img src="">
-            <img src="">
-       </section>
+        </section>
+        
        <section class = "about-us">
-            <p>Traditional handmade water bagel using the highest quality
-                flour and yeast. Freshly made daily.
-            </p>
+            <h2>ABOUT US</h2> <!-- or OUR STORY?-->
+            <div class="rows">
+                <div class="about-image">
+                    <img src="/images/jkbakery-storefront.jpg" alt="JK Bakery storefront">
+                </div>
+                <div class="about-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut ligula tincidunt, facilisis metus in, placerat diam. Donec ut lectus ac quam dapibus condimentum at quis nisl. In hac habitasse platea dictumst. Suspendisse potenti. Pellentesque vel ipsum non nulla tincidunt ornare ac sit amet magna. Nulla facilisi. Mauris porttitor interdum tempus. Proin maximus non nisl non iaculis. Nam aliquam arcu id iaculis consectetur. Curabitur faucibus convallis augue, vulputate tristique neque ultricies nec. Donec aliquam quis nisl ac sodales.</p>
+                    <br>
+                    <p> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent eget molestie est. Donec laoreet fermentum convallis. Nam porta, tortor non mollis pulvinar, ligula augue blandit nisi, vel congue nibh est quis enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi imperdiet malesuada risus, eu scelerisque ante tristique quis. In vehicula nisi ipsum, vel finibus magna elementum porttitor. Aenean interdum luctus sagittis. Donec rutrum sed mauris vel euismod. Vestibulum convallis nisl id leo rhoncus, hendrerit porta est tempus. In nibh arcu, dapibus at rhoncus sit amet, aliquam at libero. Phasellus tellus arcu, pharetra egestas malesuada ac, accumsan sit amet orci.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class = "our-bagels">
+            <div class="product-heading">
+                <h2>Our Iconic Bagels</h2>
+                <p>Freshly handmade daily</p>
+            </div>
+            <div class="product-listing">
+                <img src="">
+                <img src="">
+                <img src="">
+                <img src="">
+            </div>
+
+       </section>
+
+       <section>
+
        </section>
 
        <section>
@@ -45,27 +68,30 @@
 
        <footer>
             <h3>CONTACT US</h3>
-            <section class="hours">
-                <div>
-                    <p>MONDAY - SATURDAY</p>
-                    <p>06:30 AM - 04:30 PM</p>
+            <div class="rows">
+                <div class="hours">
+                    <div>
+                        <p>MONDAY - SATURDAY</p>
+                        <p>06:30 AM - 04:30 PM</p>
+                    </div>
+                    <br>
+                    <div>
+                        <p>SUNDAY</p>
+                        <p>06:30 AM - 03:00 PM</p>
+                    </div>
+                    <!--IMPORT GOOGLE POPULAR TIMES-->
                 </div>
-                <div>
-                    <p>SUNDAY</p>
-                    <p>06:30 AM - 03:00 PM</p>
-                </div>
-                <!--IMPORT GOOGLE POPULAR TIMES-->
-            </section>
-            <section class="address-telephone">
-                <div>
-                    <p>JK Bakery</p>
-                    <p>2914 Union St.</p>
-                    <p>Flushing, NY 11354</p>
-                </div>
-                <div>
-                    <p>PHONE: (718) 593 - 3563</p>
-                </div>
-            </section>
+                <div class="address-telephone">
+                    <div>
+                        <h4>JK Bakery</h4>
+                        <p>2914 Union St.</p>
+                        <p>Flushing, NY 11354</p>
+                    </div>
+                    <div>
+                        <p>PHONE: (718) 593 - 3563</p>
+                    </div>
+                </div>  
+            </div>
        </footer>
        
     </body>
